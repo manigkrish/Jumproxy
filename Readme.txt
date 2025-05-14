@@ -7,4 +7,4 @@ To implement this code, follow the below steps:
 6. Entered commands in the input stream of client are encrypted and sent to server, which then decrypts these commands. (initiateServer, initiateClient and manageConnection functions are used for creation and management of server and client connections)
 7. The response from server is then encrypted and decrypted at the client side. (using functions secureData and decodeData)
 8. Encryption and decryption happens using the symmetric key, which is generated using the passphrase provided in the password txt file and harcoded salt value(generated using the function deriveKey)
-9. For detailed log references, refer to JumproxyLog.log file (which is created in the same directory)
+9. For detailed log references, refer to JumproxyLog.log file (which is created in the same directory).
